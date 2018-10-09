@@ -1,0 +1,43 @@
+URxvt*termName: screen-256color
+URxvt*loginShell: true
+
+!URxvt*scrollBar:  false
+URxvt*scrollBar: true 
+URxvt*scrollstyle: plain
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: false
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+URxvt*fading:  60
+
+URxvt*visualBell:  true
+!URxvt*mouseWheelScrollPage: false
+URxvt*mouseWheelScrollPage: true
+
+URxvt.depth: 32
+
+!URxvt*colorUL: green 
+!URxvt*underlineColor: green 
+URxvt*colorIT: #2f5af3 
+
+URxvt.borderLess: false
+!URxvt*internalBorder:
+
+URxvt*saveLines: 0
+
+URxvt.urlLauncher: chromium
+
+!Xft.dpi:96
+URxvt.multichar_encoding: utf-8
+URxvt.font:xft:Monospace:size=12:style=Regular:antialias=true ,xft:WenQuanYi Micro Hei Mono:regular:size=12:style=Regular:minspace=true:antialias=true
+URxvt.boldfont:xft:Monospace:size=12:style=BOLD:antialias=true ,xft:WenQuanYi Micro Hei Mono:regular:size=12:style=Bold:minspace=true:antialias=true
+
+
+URxvt*print-pipe: cat > $HOME/Pictures/urxvt.dump/$(echo urxvt.dump.$(date +'%Y%M%d%H%m%S'))
+
+!#include "/home/lcp/Documents/github/Xresources-themes/light/base16-solarized-light-256.Xresources"
+#include "/home/lcp/Documents/github/Xresources-themes/light/iterm-AtomOneLight.Xresources"
+

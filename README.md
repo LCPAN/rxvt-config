@@ -1,0 +1,2 @@
+# configure
+xrdb -merge .Xresources
